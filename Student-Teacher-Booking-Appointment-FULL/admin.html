@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Admin Dashboard</title></head>
+<body>
+<h2>Admin Dashboard</h2>
+
+<h3>Add Teacher</h3>
+<input id="tname" placeholder="Teacher Name">
+<input id="dept" placeholder="Department">
+<input id="subject" placeholder="Subject">
+<button onclick="addTeacher()">Add</button>
+
+<h3>All Teachers</h3>
+<ul id="teachers"></ul>
+
+<h3>Pending Appointment Requests</h3>
+<ul id="pendingAppointments"></ul>
+
+<button onclick="logout()">Logout</button>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="js/firebase.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
