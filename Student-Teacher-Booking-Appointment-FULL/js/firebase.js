@@ -1,6 +1,6 @@
 
 const firebaseConfig={
-  apiKey: "AIzaSyBtwtPCd4rHe7iKKfi0Yh9MfE3HvCiVEx4",
+  apiKey: "Add api key",
   authDomain: "student-teacher-booking-f1f99.firebaseapp.com",
   projectId: "student-teacher-booking-f1f99"
 };
