@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background-color: #f3f6fb;
+    padding: 30px;
+}
+
+/* Main heading */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Section headings */
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 18px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Logout button */
+button[onclick="logout()"] {
+    background-color: #e74c3c;
+    margin-top: 25px;
+}
+
+button[onclick="logout()"]:hover {
+    background-color: #c0392b;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    max-width: 650px;
+    margin-top: 10px;
+}
+
+/* List items */
+ul li {
+    background-color: #ffffff;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* Appointment message */
+ul li span {
+    display: block;
+    color: #555;
+    font-size: 13px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
